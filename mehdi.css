@@ -1,0 +1,96 @@
+/* MEHDI's 
+    SECTION */
+
+    .text-area h1{
+      font-size: 2.6rem;
+    }
+    
+    
+    .text-area p{
+      margin-top: 1.9rem;
+      color: rgb(156, 154, 154);
+    }
+    
+    .text-and-button {
+      /* Aligns the children items in a row direction */
+      display: flex;
+      justify-content: space-between;
+    }
+    
+    
+    .button-area{
+      width: 100px;
+      height: 100px;
+      margin-top: 5rem;
+    }
+    
+    .button-more-info{
+      background-color: #dfc831;
+      border: none;
+      color: rgb(0, 0, 0);
+      padding: 15px 32px;
+      text-align: center;
+      text-decoration: none;
+      display: inline-block;
+      font-size: 14px;
+      margin: 4px 2px;
+      cursor: pointer;
+      width: 12rem;
+      height: 3.2rem;
+    }
+    
+    /* div.gallery {
+      border: 1px solid #ccc;
+    } */
+    
+    /* div.gallery:hover {
+      border: 1px solid #777;
+    } */
+    
+    
+    div.gallery img {
+      width: 100%;
+      height: auto;
+      background-color: rgb(245, 245, 245);
+    }
+    
+    div.desc {
+      padding: 15px;
+      text-align: center;
+    }
+    
+    .responsive {
+      padding: 0 6px;
+      float: left;
+      width: 14rem;
+      /* margin-bottom: 3rem; */
+    }
+    
+    @media only screen and (max-width: 700px) {
+      .responsive {
+        width: 49.99999%;
+        margin: 6px 0;
+      }
+    }
+    
+    @media only screen and (max-width: 500px) {
+      .responsive {
+        width: 100%;
+      }
+    }
+    
+    .clearfix:after {
+      content: "";
+      display: table;
+      clear: both;
+    }
+    
+    .bx{
+      margin-right: 10px;
+      font-size: 18px;
+    }    
+
+    .bx-right-top-arrow-circle{
+      font-size: 25px;
+      margin-left: -20px;
+    }
